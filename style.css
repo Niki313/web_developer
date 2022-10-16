@@ -6,13 +6,10 @@
 
 /* for small screens */
 .main-content-wrapper {
-  width: 500px;
- 
-
+  width: 410px;
 }
 .main-content-wrapper-about {
-  width: 500px;
-
+  width: 410px;
 }
 
 /* for medium screens */
@@ -40,19 +37,19 @@
     width: 1300px;
   }
   .main-content-wrapper-about {
-    width: 1300px;}
+    width: 1300px;
+  }
 }
 /* for all screens */
 .main-content-wrapper {
   margin: 0 auto;
-  padding: 100px 10px 0 10px;
+  padding: 100px 5px 0 5px;
 }
 
 .main-content-wrapper-about {
   margin: 0 auto;
   padding-top: 20px;
 }
-
 
 .wrapper {
   margin-bottom: 55px;
@@ -145,8 +142,6 @@ h3 {
 .screenshotYogurt {
   margin-top: 50px;
 }
-
-
 
 .homepage-link {
   color: var(--primary-color);
