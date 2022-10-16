@@ -6,10 +6,10 @@
 
 /* for small screens */
 .main-content-wrapper {
-  width: 360px;
+  width: 355px;
 }
 .main-content-wrapper-about {
-  width: 360px;
+  width: 355px;
 }
 
 /* for medium screens */
@@ -52,12 +52,12 @@
 /* for all screens */
 .main-content-wrapper {
   margin: 0 auto;
-  padding: 100px 10px 50px 10px;
+  padding: 100px 10px 50px 5px;
 }
 
 .main-content-wrapper-about {
   margin: 0 auto;
-  padding: 100px 10px 50px 10px;
+  padding: 100px 10px 50px 5px;
 }
 
 .wrapper {
