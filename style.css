@@ -35,11 +35,15 @@
 @media (min-width: 1200px) {
   .main-content-wrapper {
     width: 1300px;
-    margin: 0 auto;
-    padding-top: 100px;
+    /* margin: 0 auto; */
+    /* padding-top: 100px; */
   }
 }
 /* for all screens */
+.main-content-wrapper {
+  margin: 0 auto;
+  padding-top: 100px;
+}
 .wrapper {
   margin-bottom: 55px;
 }
