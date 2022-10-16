@@ -7,9 +7,12 @@
 /* for small screens */
 .main-content-wrapper {
   width: 500px;
+ 
+
 }
 .main-content-wrapper-about {
   width: 500px;
+
 }
 
 /* for medium screens */
@@ -35,15 +38,22 @@
 @media (min-width: 1200px) {
   .main-content-wrapper {
     width: 1300px;
-    /* margin: 0 auto; */
-    /* padding-top: 100px; */
   }
+  .main-content-wrapper-about {
+    width: 1300px;}
 }
 /* for all screens */
 .main-content-wrapper {
   margin: 0 auto;
-  padding-top: 100px;
+  padding: 100px 10px 0 10px;
 }
+
+.main-content-wrapper-about {
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+
 .wrapper {
   margin-bottom: 55px;
 }
@@ -136,11 +146,7 @@ h3 {
   margin-top: 50px;
 }
 
-.main-content-wrapper-about {
-  width: 1300px;
-  margin: 0 auto;
-  padding-top: 20px;
-}
+
 
 .homepage-link {
   color: var(--primary-color);
